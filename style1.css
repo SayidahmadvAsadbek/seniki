@@ -1,0 +1,116 @@
+/* styles_home.css */
+
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.home-images img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.home-content {
+    text-align: center;
+}
+
+.home-content h2 {
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.home-content p {
+    color: #555;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+.contact-button {
+    display: inline-block;
+    background-color: #ff6f61;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.contact-button:hover {
+    background-color: #e8584a;
+}
+
+/* Modern styling for better aesthetics */
+
+header {
+    border-bottom: 1px solid #555;
+}
+
+section {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 15px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    .home-content h2 {
+        font-size: 2em;
+    }
+
+    .home-content p {
+        font-size: 1em;
+    }
+}
+
+footer {
+    position: absolute;
+    bottom: -0%;
+    width: 100%;
+
+    border-top: 1px solid #555;
+}
+#bola{
+    margin-left: 45%;
+}
+a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+
+}
